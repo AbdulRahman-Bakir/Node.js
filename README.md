@@ -13,9 +13,9 @@ The goal is to strengthen my understanding of Node.js through hands-on implement
 
 ## Projects
 
-| # | Project | Description | Status |
-|---|---------|-------------|--------|
-| 1 | [Folder Info](./01-folder-info/) | CLI tool to inspect a folder and count its files and subfolders. | In Progress |
+| # | Project | Description | Task | Status |
+|---|---------|-------------|------|--------|
+| 1 | [Folder Info](./01-folder-info/) | CLI tool to inspect a folder and count its files and subfolders. | [roadmap.sh](https://roadmap.sh/projects/nodejs-folder-info) | Done |
 
 ## Project Structure
 
