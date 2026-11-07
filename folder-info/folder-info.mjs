@@ -9,9 +9,9 @@ let entries;
 
 try {
   entries = await readdir(absolutePath, { withFileTypes: true });
-} catch {
-  console.error(`error: could not read folder: ${folderPath}`);
-  process.exit(1);
+} catch (err) {
+  console.error(`error: ${err}`);
+  process.exitCode = 1;
 }
 
 const fileCount = entries.filter((e) => e.isFile()).length;
